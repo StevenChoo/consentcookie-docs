@@ -13,7 +13,7 @@ The default Google Analytics \(analytics.js\) sitetag looks as follow
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
+
     ga('create', 'UA-XXXXX-Y', 'auto');
     ga('send', 'pageview');
 </script>
@@ -44,14 +44,14 @@ When we update the default Google Analytics \(gtag.js\) sitetag it looks as foll
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
+
     // Check if the consent has been given by the vistor
     var isAccepted = ConsentCookie && ConsentCookie.get("ga").isAccepted();
     // When the consent has not been given, configure ip anonymization
     if(!isAccepted){
         ga('set', 'anonymizeIp', true);
     }
-    
+
     // Default analytics.js config
     ga('create', 'UA-XXXXX-Y', 'auto');
     ga('send', 'pageview');

@@ -35,7 +35,7 @@ When we update the default Google Analytics \(gtag.js\) sitetag it looks as foll
   // Check if the consent has been given by the vistor
   var isAccepted = ConsentCookie && ConsentCookie.get("ga").isAccepted();
   // When the consent has not been given, configure ip anonymization
-  var gaAnonymizeConfig = (isAccepted === true ? {} : { 'anonymize_ip': true })
+  var gaAnonymizeConfig = (isAccepted === true ? {} : { 'anonymize_ip': true });
 
   // Default gtag.js config
   window.dataLayer = window.dataLayer || [];
@@ -62,6 +62,5 @@ We can optimise this to
 </script>
 ```
 
-  
 
 
