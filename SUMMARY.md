@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
 * [README](README.md)
 * [Installation](installation.md)
@@ -21,7 +21,7 @@
 * [Knowledge base](knowledge-base/README.md)
   * [Google Analytics Anonymization - analytics.js](knowledge-base/google-analytics-anonymization-analytics.js.md)
   * [Google Analytics Anonymization - gtag.js](knowledge-base/google-analytics-anonymization-gtag.js.md)
-  * [Untitled](knowledge-base/untitled.md)
+  * [Google Tag Manager - Google Analytics Anonymization](knowledge-base/untitled.md)
 * [FAQ](faq.md)
 * [Untitled](untitled.md)
 
