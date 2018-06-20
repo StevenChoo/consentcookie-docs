@@ -2,7 +2,7 @@
 
 Google Analytics \(gtag.js\) has the [option](https://developers.google.com/analytics/devguides/collection/gtagjs/ip-anonymization) to collect data of your website visitors anonymously. ConsentCookie provides the option to conditionally enable this option based on the consent setting of Google Analytics.
 
-For example, Google Analytics is configured as [opt-in](../configuration/) but you still want to collect data anonymously when the website visitor has not yet given their consent for analytic purposes.
+For example, Google Analytics is configured as opt-in but you still want to collect data anonymously when the website visitor has not yet given their consent for analytic purposes.
 
 The default Google Analytics \(gtag.js\) sitetag looks as follow
 
