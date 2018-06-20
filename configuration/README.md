@@ -1,7 +1,3 @@
----
-description: How to configure ConsentCookie
----
-
 # Configuration
 
 ConsentCookie uses a JSON object to define its configuration. The current configuration options are:

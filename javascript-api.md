@@ -1,9 +1,3 @@
----
-description: >-
-  ConsentCookie provides a JavaScript API that can be used to interact with the
-  ConsentCookie client.
----
-
 # JavaScript API
 
 That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.

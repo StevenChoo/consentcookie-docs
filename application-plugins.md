@@ -1,9 +1,3 @@
----
-description: >-
-  ConsentCookie plugins provide the option to extend ConsentCookie functionality
-  for specific applications.
----
-
 # Application Plugins
 
 Plugins are used to extend the

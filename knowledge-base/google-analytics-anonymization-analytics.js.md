@@ -1,4 +1,4 @@
-# Google Analytics Anonymization - [analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+# Google Analytics Anonymization - analytics.js
 
 Google Analytics \(analytics.js\) has the [option](https://developers.google.com/analytics/devguides/collection/analyticsjs/ip-anonymization) to collect data of your website visitors anonymously. ConsentCookie provides the option to conditionally enable this option based on the consent setting of Google Analytics.
 
@@ -6,7 +6,7 @@ For example, Google Analytics is configured as opt-in but you still want to coll
 
 The default Google Analytics \(analytics.js\) sitetag looks as follow
 
-```html
+```markup
 <!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -25,7 +25,7 @@ By adding some extra script we can:
 * If the visitor has given their consent
 * Enable ip anonymization when the consent is not given
 
-```js
+```javascript
 // Check if the consent has been given by the vistor
 var isAccepted = ConsentCookie && ConsentCookie.get("ga").isAccepted();
 // When the consent has not been given, configure ip anonymization
@@ -37,7 +37,7 @@ if(!isAccepted){
 
 When we update the default Google Analytics \(gtag.js\) sitetag it looks as follow
 
-```js
+```javascript
 <!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -58,6 +58,4 @@ When we update the default Google Analytics \(gtag.js\) sitetag it looks as foll
 </script>
 <!-- End Google Analytics -->
 ```
-
-
 
